@@ -5,7 +5,6 @@ const api = require('./Route/index');
 const app = express();
 const PORT = 3001;
 
-
 // Importing the custom middleware
 app.use(cmw);
 
@@ -30,3 +29,4 @@ app.get('/notetaker', (req, res) =>
 app.listeb(PORT, () =>
 console.log(`App listening at http://localhost:${PORT}`)
 );
+
