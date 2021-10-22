@@ -13,9 +13,9 @@ nt.get('/', (req, res) =>{
 nt.post('/', (req, res) =>{
 
 // 
-    const {title, text } = req.body;
+    const { title, text } = req.body;
 // If one of the the required properties are present
-    if(title || text) {
+    if( title || text) {
         // Variable for the object will save
         const newNotetaker = {
             title,
